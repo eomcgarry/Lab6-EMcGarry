@@ -42,21 +42,32 @@
 /* Sidebar */
 
 #sidebar { 
-	
+	background-color: red;
+	position: fixed;
+	height: 100%;
+	width: 20%;
+	right: 0%;
 }
 
 #sidebar-container {
-	
+	text-align: center;
 }
 
 #sidebar-container ul {
-	
+	list-style-type: none;
+	display: block;
+	padding: 0;
 }
 
 #sidebar-container ul li {
-	
+	padding: 15px 0;
 }
 
 #sidebar-container ul li a {
-	
+	color: #fff;
+	text-decoration: none;
+}
+
+#sidebar-container li:hover {
+	background-color: #000;
 }
