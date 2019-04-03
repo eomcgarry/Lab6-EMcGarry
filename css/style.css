@@ -4,24 +4,39 @@
 	background-color: blue;
 	width: 100%;
 	position: relative;
+	overflow: hidden;
 }
 
 #navbar-container {
 	position: relative;
-	
-}
-
-#main-navbar ul {
-	overflow: hidden;
-	
-}
-
-#main-navbar ul li {
 	float: left;
+	left: 50%;
+	display: block;
+}
+
+#navbar-container ul {
+	position: relative;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	right: 50%;
+	float: left;
+	display: block;
+}
+
+#navbar-container ul li {
+	float: left;
+	padding: 10px 20px;
+}
+
+#navbar-container ul li a {
+	color: #fff;
+	text-decoration: none;
 }
 
 #navbar-container li:hover {
 	text-decoration: underline overline;
+	background-color: #000;
 }
 
 /* Sidebar */
