@@ -1,0 +1,27 @@
+/* Navigation Bar */
+
+#main-navbar {
+	background-color: blue;
+	width: 100%;
+	position: relative;
+}
+
+#navbar-container {
+	position: relative;
+	
+}
+
+#main-navbar ul {
+	overflow: hidden;
+	
+}
+
+#main-navbar ul li {
+	float: left;
+}
+
+#navbar-container li:hover {
+	text-decoration: underline overline;
+}
+
+/* Sidebar */
